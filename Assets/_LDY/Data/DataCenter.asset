@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfdfde7a7501abd41a8a7910c2ed8b63, type: 3}
+  m_Name: DataCenter
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  displayName: "\uB370\uC774\uD130\uC13C\uD130"
+  icon: {fileID: 5683867512498671170, guid: c1901cdaaf22a06438e6f5831bad182b, type: 3}
+  description: "\uC555\uB3C4\uC801\uC778 \uC804\uB825, \uC555\uB3C4\uC801\uC778 \uC218\uC775"
+  price: 120000
+  powerConsumption: 560
+  baseIncome: 1500
+  incomeMultiplier: 1

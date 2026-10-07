@@ -1,4 +1,4 @@
-public class ItemToggleService
+public class ItemToggleService : IItemToggleService
 {
     private readonly IPurchaseService purchase;
     private readonly IPowerGrid grid;

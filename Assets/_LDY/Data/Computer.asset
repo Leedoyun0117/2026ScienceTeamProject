@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfdfde7a7501abd41a8a7910c2ed8b63, type: 3}
   m_Name: Computer
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  displayName: Computer
-  price: 120
-  powerConsumption: 60
-  baseIncome: 25
-  incomeMultiplier: 1.5
+  displayName: "\uCEF4\uD4E8\uD130"
+  icon: {fileID: -765201147840466658, guid: c788bf1df82aae14a9e5f92e3f328e33, type: 3}
+  description: "\uBCF8\uACA9\uC801\uC778 \uC218\uC775\uC758 \uC2DC\uC791"
+  price: 150
+  powerConsumption: 30
+  baseIncome: 5
+  incomeMultiplier: 1

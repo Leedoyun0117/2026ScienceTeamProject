@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfdfde7a7501abd41a8a7910c2ed8b63, type: 3}
+  m_Name: electric bulb
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  displayName: "\uC804\uAD6C"
+  icon: {fileID: -1673544852512956043, guid: 865be6a6b211f864c9887e80fa584974, type: 3}
+  description: "\uC800\uB834\uD558\uACE0 \uC804\uB825\uB3C4 \uC801\uAC8C \uC4F0\uB294
+    \uC785\uBB38\uC6A9"
+  price: 30
+  powerConsumption: 10
+  baseIncome: 1
+  incomeMultiplier: 1

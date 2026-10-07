@@ -13,6 +13,7 @@ public interface IPowerGrid
     event Action OnActiveItemsChanged;
 
     bool IsActive(ItemData item);
+    bool WouldExceedLimit(ItemData item);
     void Activate(ItemData item);
     void Deactivate(ItemData item);
 }

@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfdfde7a7501abd41a8a7910c2ed8b63, type: 3}
   m_Name: Fan
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  displayName: Fan
-  price: 50
-  powerConsumption: 40
-  baseIncome: 8
+  displayName: "\uC120\uD48D\uAE30"
+  icon: {fileID: -2000207145057758158, guid: db5f18a46bdc0394aa5b68a1657ede1f, type: 3}
+  description: "\uC804\uB825\uC744 \uAF64 \uBA39\uC9C0\uB9CC \uC218\uC775\uC774 \uC88B\uC74C"
+  price: 600
+  powerConsumption: 60
+  baseIncome: 15
   incomeMultiplier: 1
