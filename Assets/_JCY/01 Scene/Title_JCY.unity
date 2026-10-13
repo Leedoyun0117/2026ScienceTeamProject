@@ -1067,6 +1067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 210788505}
   - component: {fileID: 210788504}
+  - component: {fileID: 210788506}
   m_Layer: 0
   m_Name: RunTime
   m_TagString: Untagged
@@ -1091,7 +1092,7 @@ MonoBehaviour:
   - {fileID: 892213823}
   - {fileID: 13355644}
   - {fileID: 440570123}
-  _timeSpeed: 1
+  _timeSpeed: 5
 --- !u!4 &210788505
 Transform:
   m_ObjectHideFlags: 0
@@ -1107,6 +1108,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &210788506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210788503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d6ab0c1034f5d54ca0be1d865e1e2bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PanelFadeOut
+  _panel: {fileID: 1897744338}
+  _duration: 1
 --- !u!1 &252432131
 GameObject:
   m_ObjectHideFlags: 0
@@ -3583,9 +3598,9 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1897744337}
   - {fileID: 2074135057}
   - {fileID: 828419929}
-  - {fileID: 1897744337}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -8763,7 +8778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.38364768, g: 0.38364768, b: 0.38364768, a: 0.22352941}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.54901963}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

@@ -14,6 +14,7 @@ public class RunTime : MonoBehaviour
     public GameObject[] _backGrounds;
     [SerializeField] private float _timeSpeed;
     private int _currentIndex = 0;
+    private PanelFadeOut fadeOut;
 
     // [field:SerializeField]
     // private enum _currentTime
@@ -27,7 +28,7 @@ public class RunTime : MonoBehaviour
 
     private void Awake()
     {
-        PanelFadeOut fadeOut = GetComponentInChildren<PanelFadeOut>();
+        fadeOut = GetComponentInChildren<PanelFadeOut>();
     }
 
     private void Start()
@@ -51,6 +52,7 @@ public class RunTime : MonoBehaviour
             _currentIndex = 0;
         
         _backGrounds[_currentIndex].SetActive(true);
+        fadeOut.Fade();
         StartCoroutine(MoveTime());
     }
 }

@@ -3,6 +3,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using Sequence = DG.Tweening.Sequence;
 
 public class PanelFadeOut : MonoBehaviour
 {
@@ -14,8 +15,10 @@ public class PanelFadeOut : MonoBehaviour
         _panel.DOFade(0, _duration);
     }
 
-    public void Fade(int alpha)
+    public void Fade()
     {
-        //_panel.color.a = alpha;
+        Sequence sequence = DOTween.Sequence();
+        sequence.Append(_panel.DOFade(0.8f, 0.0001f));
+            sequence.Append(_panel.DOFade(0, _duration));
     }
 }
