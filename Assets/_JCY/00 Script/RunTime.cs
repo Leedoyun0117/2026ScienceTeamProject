@@ -25,6 +25,11 @@ public class RunTime : MonoBehaviour
     // }
     //
 
+    private void Awake()
+    {
+        PanelFadeOut fadeOut = GetComponentInChildren<PanelFadeOut>();
+    }
+
     private void Start()
     {
         foreach (var back in _backGrounds)
