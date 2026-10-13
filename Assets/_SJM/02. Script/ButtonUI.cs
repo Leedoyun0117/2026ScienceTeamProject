@@ -2,7 +2,7 @@ using UnityEngine;
 using DG.Tweening;
 public class ButtonUI : MonoBehaviour
 {
-   [SerializeField] private Transform _button;
+   [SerializeField] private RectTransform _button;
    [SerializeField] private Transform _startPos;
    [SerializeField] private Transform _endPos;
    private Sequence _sequence;
