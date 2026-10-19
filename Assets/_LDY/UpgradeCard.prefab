@@ -484,8 +484,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 6018923042050776411, guid: 75d16d80aa007c149a2e4c63f52c2a85, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -493,7 +493,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 3
 --- !u!114 &7077317723490541157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -577,8 +577,8 @@ MonoBehaviour:
   levelText: {fileID: 6244802200955654975}
   effectText: {fileID: 7500115296843214524}
   costText: {fileID: 8957629058874041644}
-  availableColor: {r: 0.25, g: 0.4, b: 0.55, a: 1}
-  disabledColor: {r: 0.38, g: 0.38, b: 0.42, a: 1}
+  availableSprite: {fileID: 6018923042050776411, guid: 75d16d80aa007c149a2e4c63f52c2a85, type: 3}
+  lockedSprite: {fileID: 4528899987692602657, guid: 871d2e07a7ddb7c43bd90c1f39e24b5f, type: 3}
 --- !u!1 &6606786873835457742
 GameObject:
   m_ObjectHideFlags: 0

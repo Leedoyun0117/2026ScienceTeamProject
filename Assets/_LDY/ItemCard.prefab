@@ -41,6 +41,7 @@ RectTransform:
   - {fileID: 1675372874479743099}
   - {fileID: 4842653363850836720}
   - {fileID: 2998844756376781841}
+  - {fileID: 910000001}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -76,8 +77,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 6018923042050776411, guid: 75d16d80aa007c149a2e4c63f52c2a85, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -85,7 +86,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 3
 --- !u!114 &3461569592040419342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,10 +173,13 @@ MonoBehaviour:
   incomeText: {fileID: 7623419522791540096}
   stateText: {fileID: 7719146839990662862}
   warningText: {fileID: 892156097185763247}
-  purchasableColor: {r: 0.2, g: 0.45, b: 0.3, a: 1}
-  unaffordableColor: {r: 0.38, g: 0.38, b: 0.42, a: 1}
-  onColor: {r: 0.2, g: 0.35, b: 0.6, a: 1}
-  offColor: {r: 0.45, g: 0.32, b: 0.2, a: 1}
+  breakerImage: {fileID: 910000003}
+  availableSprite: {fileID: 6018923042050776411, guid: 75d16d80aa007c149a2e4c63f52c2a85, type: 3}
+  lockedSprite: {fileID: 4528899987692602657, guid: 871d2e07a7ddb7c43bd90c1f39e24b5f, type: 3}
+  onSprite: {fileID: 9034054830497675246, guid: ef15f612af893494f8423354c341c933, type: 3}
+  offSprite: {fileID: -5812097984384787557, guid: a9d54ac48c6e03a4aac79e29b3537423, type: 3}
+  breakerOnSprite: {fileID: 7055998116381093209, guid: 308b6f6dd52a7a746b7dae562c93e3e2, type: 3}
+  breakerOffSprite: {fileID: -5740080403632932129, guid: 2446d42e3b871744dae0b812fca08c9f, type: 3}
 --- !u!1 &1414977947091590499
 GameObject:
   m_ObjectHideFlags: 0
@@ -1210,3 +1214,78 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &910000000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 910000001}
+  - component: {fileID: 910000002}
+  - component: {fileID: 910000003}
+  m_Layer: 5
+  m_Name: Breaker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &910000001
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910000000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1245859976706987568}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -14, y: 8}
+  m_SizeDelta: {x: 20, y: 30}
+  m_Pivot: {x: 1, y: 0}
+--- !u!222 &910000002
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910000000}
+  m_CullTransparentMesh: 1
+--- !u!114 &910000003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910000000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -5740080403632932129, guid: 2446d42e3b871744dae0b812fca08c9f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1

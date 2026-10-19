@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FactoryEquipment
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   displayName: "\uACF5\uC7A5 \uC124\uBE44"
-  icon: {fileID: -2523990171142895855, guid: fde9d170b6c5fc746b4287bc966903d9, type: 3}
+  icon: {fileID: 1675193422294626514, guid: dc19eea690dbaca4d8736b2ca30352cc, type: 3}
   description: "\uB300\uB7C9 \uC0DD\uC0B0\uC73C\uB85C \uD070 \uC218\uC775"
   price: 30000
   powerConsumption: 320

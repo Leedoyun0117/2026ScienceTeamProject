@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Server
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   displayName: "\uC11C\uBC84"
-  icon: {fileID: 9143288546432797427, guid: eab0566c63010f043958d96ea1566e01, type: 3}
+  icon: {fileID: 6678779224298351657, guid: fdc33e1f91a986b49aa6fcc6f2c54b44, type: 3}
   description: "\uB9C9\uB300\uD55C \uC804\uB825, \uB9C9\uB300\uD55C \uC218\uC775"
   price: 2500
   powerConsumption: 120
