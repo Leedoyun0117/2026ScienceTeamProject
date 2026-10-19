@@ -12,8 +12,8 @@ public class UpgradeCardView : MonoBehaviour
     [SerializeField] private TMP_Text levelText;
     [SerializeField] private TMP_Text effectText;
     [SerializeField] private TMP_Text costText;
-    [SerializeField] private Color availableColor = new Color(0.25f, 0.4f, 0.55f);
-    [SerializeField] private Color disabledColor = new Color(0.38f, 0.38f, 0.42f);
+    [SerializeField] private Sprite availableSprite;
+    [SerializeField] private Sprite lockedSprite;
 
     public void Init(UpgradeData data, Action<UpgradeData> onClick)
     {
@@ -31,6 +31,6 @@ public class UpgradeCardView : MonoBehaviour
 
         bool available = !info.IsMax && info.CanAfford;
         button.interactable = available;
-        background.color = available ? availableColor : disabledColor;
+        background.sprite = available ? availableSprite : lockedSprite;
     }
 }

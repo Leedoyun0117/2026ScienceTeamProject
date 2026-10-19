@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Computer
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   displayName: "\uCEF4\uD4E8\uD130"
-  icon: {fileID: -765201147840466658, guid: c788bf1df82aae14a9e5f92e3f328e33, type: 3}
+  icon: {fileID: -9184552238436830603, guid: 54bbd7f685a224948a188092f2fedb73, type: 3}
   description: "\uBCF8\uACA9\uC801\uC778 \uC218\uC775\uC758 \uC2DC\uC791"
   price: 150
   powerConsumption: 30

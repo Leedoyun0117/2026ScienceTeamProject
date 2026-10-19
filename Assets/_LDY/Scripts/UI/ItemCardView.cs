@@ -15,10 +15,13 @@ public class ItemCardView : MonoBehaviour
     [SerializeField] private TMP_Text incomeText;
     [SerializeField] private TMP_Text stateText;
     [SerializeField] private TMP_Text warningText;
-    [SerializeField] private Color purchasableColor = new Color(0.2f, 0.45f, 0.3f);
-    [SerializeField] private Color unaffordableColor = new Color(0.38f, 0.38f, 0.42f);
-    [SerializeField] private Color onColor = new Color(0.2f, 0.35f, 0.6f);
-    [SerializeField] private Color offColor = new Color(0.45f, 0.32f, 0.2f);
+    [SerializeField] private Image breakerImage;
+    [SerializeField] private Sprite availableSprite;
+    [SerializeField] private Sprite lockedSprite;
+    [SerializeField] private Sprite onSprite;
+    [SerializeField] private Sprite offSprite;
+    [SerializeField] private Sprite breakerOnSprite;
+    [SerializeField] private Sprite breakerOffSprite;
 
     public void Init(ItemData item, Action<ItemData> onClick)
     {
@@ -40,24 +43,26 @@ public class ItemCardView : MonoBehaviour
         switch (info.State)
         {
             case ItemCardState.Purchasable:
-                Apply("구매 가능", purchasableColor, true);
+                Apply("구매 가능", availableSprite, true);
                 break;
             case ItemCardState.Unaffordable:
-                Apply("돈 부족", unaffordableColor, false);
+                Apply("돈 부족", lockedSprite, false);
                 break;
             case ItemCardState.On:
-                Apply("ON", onColor, true);
+                Apply("", onSprite, true, breakerOnSprite);
                 break;
             case ItemCardState.Off:
-                Apply("OFF", offColor, true);
+                Apply("", offSprite, true, breakerOffSprite);
                 break;
         }
     }
 
-    private void Apply(string state, Color color, bool interactable)
+    private void Apply(string state, Sprite sprite, bool interactable, Sprite breaker = null)
     {
         stateText.text = state;
-        background.color = color;
+        background.sprite = sprite;
+        breakerImage.sprite = breaker;
+        breakerImage.enabled = breaker != null;
         button.interactable = interactable;
     }
 }

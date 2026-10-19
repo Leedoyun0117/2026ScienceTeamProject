@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MiningRig
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   displayName: "\uCC44\uAD74\uAE30"
-  icon: {fileID: 7651523103487540281, guid: ba53717bd60d9414c8b605836c097fe1, type: 3}
+  icon: {fileID: -8466475787344064129, guid: 6962742ea8f5e84428178106529fc521, type: 3}
   description: "\uBC24\uB0AE\uC5C6\uC774 \uB3CC\uC544\uAC00\uB294 \uC218\uC775 \uAE30\uACC4"
   price: 8000
   powerConsumption: 180

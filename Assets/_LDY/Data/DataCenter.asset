@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DataCenter
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   displayName: "\uB370\uC774\uD130\uC13C\uD130"
-  icon: {fileID: 5683867512498671170, guid: c1901cdaaf22a06438e6f5831bad182b, type: 3}
+  icon: {fileID: -8601672141782903240, guid: 2e7146ca0451b3c47824fdb594a6c32a, type: 3}
   description: "\uC555\uB3C4\uC801\uC778 \uC804\uB825, \uC555\uB3C4\uC801\uC778 \uC218\uC775"
   price: 120000
   powerConsumption: 560

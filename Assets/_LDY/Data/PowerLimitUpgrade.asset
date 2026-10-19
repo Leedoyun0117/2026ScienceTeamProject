@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UpgradeData
   type: 0
   displayName: "\uC804\uB825 \uD55C\uB3C4 \uC5C5"
-  icon: {fileID: -3947474941592040417, guid: 6e5b106014fdcf7468c4d41c42680b90, type: 3}
+  icon: {fileID: 2420111246234317494, guid: e4f1c863c7676944aa3397c42edf9dd4, type: 3}
   baseCost: 200
   costGrowth: 1.6
   effectPerLevel: 20
