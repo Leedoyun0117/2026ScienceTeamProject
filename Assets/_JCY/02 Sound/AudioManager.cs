@@ -36,6 +36,16 @@ public class AudioManager : MonoBehaviour
         Debug.Log(bgm);
     }
 
+    public void SetBgmVolume(float volume)
+    {
+        bgmSource.volume = volume;
+    }
+
+    public void SetSfxVolume(float volume)
+    {
+        sfxSource.volume = volume;
+    }
+
     public void PlayCoin()
     {
         sfxSource.PlayOneShot(sfx[0]);
