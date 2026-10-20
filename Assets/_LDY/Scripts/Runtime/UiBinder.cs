@@ -26,6 +26,9 @@ public class UiBinder : MonoBehaviour
         router = new ShopClickRouter(context.Purchase, context.Toggle, context.Upgrade);
         itemShopView.OnItemClicked += router.OnItemClicked;
         upgradeShopView.OnUpgradeClicked += router.OnUpgradeClicked;
+        context.Purchase.OnItemPurchased += _ => AudioManager.Instance.PlayPressd();
+        context.Click.OnClicked +=  _ => AudioManager.Instance.PlayCoin(); 
+        context.Payout.OnPaid += _ => AudioManager.Instance.PlayCoin(); 
     }
 
     private void OnDestroy()
