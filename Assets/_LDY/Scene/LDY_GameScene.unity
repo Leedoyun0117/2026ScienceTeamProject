@@ -4340,32 +4340,32 @@ MonoBehaviour:
   characterImage: {fileID: 629563832}
   visuals:
   - type: 0
-    sprite: {fileID: 7408791951343775973, guid: 77f5f832084b1ba4dbdbbf459b4ed8bb, type: 3}
+    sprite: {fileID: -1916882532256999889, guid: af1e1fa23da02a0488b2f06b1cbc8a9e, type: 3}
     tint: {r: 1, g: 1, b: 1, a: 1}
     motion: 1
     duration: 0
   - type: 1
-    sprite: {fileID: 6722941994978559222, guid: 2915e01f69a7b654880823258e155cc0, type: 3}
+    sprite: {fileID: -7751191161079360933, guid: af1e1fa23da02a0488b2f06b1cbc8a9e, type: 3}
     tint: {r: 1, g: 1, b: 1, a: 1}
     motion: 2
     duration: 0.6
   - type: 2
-    sprite: {fileID: -5193773417814558574, guid: 61631cf866007f746b4ef2e589c62508, type: 3}
+    sprite: {fileID: 5857259572139822926, guid: af1e1fa23da02a0488b2f06b1cbc8a9e, type: 3}
     tint: {r: 1, g: 1, b: 1, a: 1}
     motion: 2
     duration: 0.6
   - type: 3
-    sprite: {fileID: 2504651410341453038, guid: 55d05a58d49814f49b7a42cb9fbd544d, type: 3}
+    sprite: {fileID: -1916882532256999889, guid: af1e1fa23da02a0488b2f06b1cbc8a9e, type: 3}
     tint: {r: 1, g: 1, b: 1, a: 1}
     motion: 3
     duration: 0
   - type: 4
-    sprite: {fileID: 527032050655329177, guid: f6f49a256caccc9428a62784646a2aa9, type: 3}
+    sprite: {fileID: 7142130598889139664, guid: af1e1fa23da02a0488b2f06b1cbc8a9e, type: 3}
     tint: {r: 1, g: 1, b: 1, a: 1}
     motion: 4
     duration: 0
   - type: 5
-    sprite: {fileID: 5872041877728457255, guid: 396d8edd72c48614994bf5ef237c426e, type: 3}
+    sprite: {fileID: -3166905987583613726, guid: af1e1fa23da02a0488b2f06b1cbc8a9e, type: 3}
     tint: {r: 1, g: 1, b: 1, a: 1}
     motion: 2
     duration: 1.5
