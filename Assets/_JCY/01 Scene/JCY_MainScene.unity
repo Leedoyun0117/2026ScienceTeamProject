@@ -9596,6 +9596,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   bgmSource: {fileID: 1462604942}
   sfxSource: {fileID: 1462604941}
+  bgm: {fileID: 8300000, guid: 7d0ba741ba380ba45ac5b85db529f6d1, type: 3}
 --- !u!4 &1462604945
 Transform:
   m_ObjectHideFlags: 0
