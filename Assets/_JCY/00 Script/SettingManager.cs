@@ -88,8 +88,13 @@ public class SettingManager : MonoBehaviour
         Time.timeScale = open ? 0f : 1f;
     }
 
-    public void GoTitle()
+    public void ReturnToTitle()
     {
+        if (settingPanel != null)
+        {
+            settingPanel.SetActive(false);
+        }
+
         Time.timeScale = 1f;
         SceneManager.LoadScene(titleSceneIndex);
     }
