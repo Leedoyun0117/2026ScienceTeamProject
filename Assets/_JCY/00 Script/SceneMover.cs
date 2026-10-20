@@ -8,6 +8,21 @@ public class SceneMover : MonoBehaviour
    [SerializeField] private int sceneNum;
    [SerializeField] private GameObject pannel;
 
+   private void Awake()
+   {
+      if (Instance == null)
+      {
+         Instance = this;
+         DontDestroyOnLoad(gameObject);
+      }
+      else
+      {
+         Destroy(gameObject);
+      }
+   }
+
+   public static SceneMover Instance { get; set; }
+
    private void Start()
    {
       if (pannel != null)
