@@ -714,6 +714,7 @@ MonoBehaviour:
   _correctTxet: {fileID: 1098414098}
   _incorrectText: {fileID: 1356675227}
   _ui: {fileID: 281655186}
+  _quizText: {fileID: 2037537097}
 --- !u!1 &1098414096
 GameObject:
   m_ObjectHideFlags: 0
@@ -1457,7 +1458,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -677, y: 100}
+  m_AnchoredPosition: {x: -774, y: 100}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2037537097
@@ -1548,7 +1549,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -1667.529, w: -193.49078}
+  m_margin: {x: 0, y: 0, z: -1486.126, w: -193.49078}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
