@@ -4591,7 +4591,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1780510379}
-  - {fileID: 1549922995}
   - {fileID: 721873375}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9411,6 +9410,7 @@ GameObject:
   - component: {fileID: 1549922998}
   - component: {fileID: 1549922997}
   - component: {fileID: 1549922996}
+  - component: {fileID: 1549922999}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -9427,17 +9427,37 @@ RectTransform:
   m_GameObject: {fileID: 1549922994}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6666667, y: 0.6666667, z: 0.6666667}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1231984122}
-  m_Father: {fileID: 721873372}
+  m_Father: {fileID: 1780510379}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -25, y: -274}
+  m_AnchoredPosition: {x: -16.666666, y: -182.66667}
   m_SizeDelta: {x: 546.3771, y: 102.4457}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1549922999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549922994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.LayoutElement
+  m_IgnoreLayout: 1
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!114 &1549922996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10618,6 +10638,7 @@ RectTransform:
   - {fileID: 1431115706}
   - {fileID: 1553823664}
   - {fileID: 1997860314}
+  - {fileID: 1549922995}
   m_Father: {fileID: 721873372}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
