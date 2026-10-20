@@ -12170,7 +12170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneMover
   sceneNum: 1
-  pannel: {fileID: 721873367}
+  pannel: {fileID: 0}
 --- !u!4 &2056430623
 Transform:
   m_ObjectHideFlags: 0
